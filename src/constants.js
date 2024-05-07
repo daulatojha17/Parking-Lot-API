@@ -1,0 +1,26 @@
+const HTTP_CODE = {
+  OK: 200,
+  CREATED: 201,
+  ACCEPTED: 202,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  NOT_FOUND: 404,
+  INVALID_ARGUMENT: 409,
+  UNPROCESSABLE_ENTITY: 422,
+  INTERNAL_ERROR: 500,
+}
+  
+const SLOT_STATUS = {
+  AVAILABLE: "available",
+  UNAVAILABLE: "unavailable",
+}
+
+const DB_NAME = {
+  name : "ParkingLot"
+}
+
+export {
+  HTTP_CODE,
+  SLOT_STATUS,
+  DB_NAME
+};
